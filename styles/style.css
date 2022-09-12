@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppinsregular;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    align-items: center;
+}
+.title__img{
+    display: flex;
+    list-style-type: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0.1rem 0.5rem rgb(15, 14, 14);
+    width: 100%;
+    transition: all 0.5;
+    border-radius: 3px;
+    padding: 20px 30px;
+    background: rgb(34, 34, 34);
+    flex-direction: row;
+    transition: all 0.5s;
+}
+aside{
+    padding-top: 0;
+}
+
+#title{
+    flex-direction: colum;
+    line-height: 30px;
+}
+
+li{
+display: inline-block;
+margin: 20px;
+}
+a{
+color:white;
+}
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+#inscreva-se-btn{
+    border:2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+#inscreva-se-btn:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 60% 40%; /*deixa a tela no meio*/
+    flex-direction:row;
+    margin-top: 0;
+    justify-content: space-between;
+}
+header{
+    margin-top: 70px;
+    padding-left: 50px;
+}
+h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-family: poppinsmedium;
+}
+span{
+    color: rgb(132, 14, 201);
+}
+p{
+    margin-top: 20px;
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+form [type="submit"]{
+  height: 50px;  
+  width: 50%;
+  background-color: rgb(132, 14, 201);
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  padding: 10px;
+}
+
+form [type="submit"]:hover{
+cursor: pointer;
+
+}
+img{
+    height: 630px;
+    align-self:center;
+    margin-top: 60px;
+    width: 180px;
+    margin-top: 0;
+    background-size: contain; 
+}
+.mulher-meio{
+    height: 600px;
+    width: 300px;
+    align-self: right;
+    margin-top: 60px;
+    flex-direction:row;
+    margin-top: 0;
+    background-size: contain;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px 10px;
+    background: rgb(34, 34, 34);
+    box-shadow: 10px 10px 10px 10px rgb(15, 14, 14) ;
+}
+
+.copyright {
+    text-align: center;
+    color: #ffffff;
+    font-size: 13px;
+    margin: 5px 100px 0 0 ;
+    padding: 5px 10px;
+    box-shadow: 0 0.1rem 0.5rem rgb(132, 14, 201);
+    border-radius: 10px;
+}
+.copyright:hover{
+    color: rgb(202, 160, 227);
+    transition: 0.3s all;
+    text-align: center;
+}
